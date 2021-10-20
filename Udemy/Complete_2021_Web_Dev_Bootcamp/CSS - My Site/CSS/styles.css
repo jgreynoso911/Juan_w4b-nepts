@@ -1,0 +1,73 @@
+.top-container {
+    background-color: white;
+    /*   margin: 0px;   */
+    position: relative;
+    /***padding-top: 100px;*** pushes everything down***/
+    padding-top: 100px;
+}
+
+
+body {
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    
+}
+
+h1 {
+    font-size: 5.625rem;
+    /* 50px is top, 1st auto is right, 0 is bottom, and 2nd auto is left and auto keeps it centered*/
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    /*   width: 25%;   */
+    /* Using margin: so h1 is centered automatically inside the body, even if width is changed. */
+    /*   margin:  0 auto 0 auto;   */
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    line-height: 2;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E
+}
+
+div {
+    background-color: #f2f5f5;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+
+}
+
+.span1 {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+a {
+    color: #11999E
+}
